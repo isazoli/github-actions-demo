@@ -29,7 +29,3 @@ jobs:
         # You may pin to the exact commit or the version.
         # uses: LucaFeger/action-maven-cli@765e218a50f02a12a7596dc9e7321fc385888a27
         uses: LucaFeger/action-maven-cli@1.1.0
-          action "package" {
-            uses = "LucaFeger/action-maven-cli@master"
-            args = "clean install"
-          }
